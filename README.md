@@ -11,12 +11,13 @@ A Neovim colorscheme inspired by DC Universe's Lantern Corps emotional spectrum.
 
 ## Installation
 With lazy.nvim:
+
 ```lua
-    {
-        'mavantgarderc/lantern-corps.nvim',
-        lazy = true,
-        config = function()
-            vim.cmd.colorscheme 'lantern'
-        end
-    }
+{
+    'mavantgarderc/lantern-corps.nvim',
+    lazy = true,
+    config = function()
+        vim.cmd.colorscheme 'lantern'
+    end
+}
 ```
